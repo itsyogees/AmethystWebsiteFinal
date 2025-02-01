@@ -9,6 +9,7 @@ import { IoIosArrowUp, IoIosArrowDown } from "react-icons/io";
 import { FiSearch } from "react-icons/fi";
 import { LuSettings2 } from "react-icons/lu";
 import { useRouter } from "next/navigation"; 
+import { FaCartArrowDown } from "react-icons/fa";
 import Pagination from "@/app/utils/Pagenation/Pagenation";
 
 const JewelleryShop = () => {
@@ -502,9 +503,7 @@ const JewelleryShop = () => {
                       <p>{item.nexPrice}</p>
                     </div>
                     <div className="locate">
-                      <FaRegHeart />
-                      <CiShare2 />
-                      <LiaRetweetSolid />
+                      <FaCartArrowDown />
                     </div>
                   </div>
                 ))}
