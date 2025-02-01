@@ -166,7 +166,7 @@ const About = () => {
               <div className="about-img-content-top">
                 <p>TOP FASHION</p>
               </div>
-              <img src="/image/Shop1.jpeg" alt="Specialty8" />
+              <img src="/image/shop1.jpeg" alt="Specialty8" />
             </div>
           </div>
           </div>
