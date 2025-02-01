@@ -10,6 +10,7 @@ import { FiSearch } from "react-icons/fi";
 import Pagination from "@/app/utils/Pagenation/Pagenation";
 import { LuSettings2 } from "react-icons/lu";
 import { useRouter } from "next/navigation";
+import { FaCartArrowDown } from "react-icons/fa";
 const ClothShop = () => {
   const [openFilter, setOpenFilter] = useState("CATEGORIES");
   const [openSubFilter, setOpenSubFilter] = useState("dogs");
@@ -511,9 +512,8 @@ const ClothShop = () => {
                       <p>{item.nexPrice}</p>
                     </div>
                     <div className="locate">
-                      <FaRegHeart />
-                      <CiShare2 />
-                      <LiaRetweetSolid />
+                      <FaCartArrowDown />
+                      
                     </div>
                   </div>
                 ))}
